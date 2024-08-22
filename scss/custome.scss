@@ -1,0 +1,150 @@
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  color: white;
+  background-image: url("../img/bg.jpg");
+  background-size: cover; /* Ensures the image covers the whole page */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the background fixed during scrolling */
+  background-position: center; /* Centers the image */
+  margin: 0; /* Removes default margin */
+  padding: 0;
+  padding-top: 56px; /* Adjust padding to prevent content from being hidden under the navbar */
+}
+
+.btn-blue {
+  background-color: #007bff; /* Bootstrap primary blue color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+}
+
+.btn-blue:hover {
+  background-color: #0056b3; /* Darker shade of blue for hover effect */
+  color: white; /* Ensure text remains white */
+}
+
+.btn-blue:focus,
+.btn-blue:active {
+  box-shadow: none; /* Remove default focus/active shadow */
+  color: white; /* Ensure text remains white */
+}
+
+#hobbies {
+  padding: 2rem 0; /* Adjust top and bottom padding for the section */
+}
+
+.carousel img {
+  height: 480px;
+  width: auto;
+  object-fit: contain;
+}
+
+h3.text-uppercase {
+  margin-bottom: 1rem; /* Adjust margin as needed */
+}
+
+.lead {
+  font-size: 1.125rem; /* Adjust font size for better readability */
+}
+
+.navbar {
+  background-color: #ffffff; /* Ensure the navbar has a background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for better visibility */
+}
+
+.contact {
+  padding: 20px;
+}
+
+.head,
+.contacthead {
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.iconf {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.iconf:hover {
+  text-decoration: underline;
+}
+
+.fab {
+  color: #007bff;
+}
+
+.fab:hover {
+  color: #0056b3;
+}
+
+.foot {
+  width: 100%;
+  height: 20px;
+  background-color: #4e5154;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight-bootstrap {
+  color: blue; /* Change this to your desired color */
+}
+
+.card-small-text {
+  font-size: 0.69em; /* Adjust this value as needed */
+}
+
+.rounded-card {
+  border-radius: 30px; /* Adjust this value as needed for card rounding */
+  overflow: hidden; /* Ensure the child elements respect the border-radius */
+}
+
+.rounded-img {
+  border-radius: 30px 30px 0 0; /* Match the card's top border radius */
+}
+.rounded-btn {
+  border-radius: 10px; /* Adjust this value as needed for button rounding */
+}
+
+.custom-card-height {
+  min-height: 400px; /* Adjust the height as needed */
+}
+
+.contact-warning {
+  color: red;
+}
+
+// Then add additional custom code here
